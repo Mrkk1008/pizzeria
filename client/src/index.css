@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav-link {
+  color: white !important;
+}
+h1 {
+  font-size: 20px !important;
+}
+.flex-container {
+  display: flex !important;
+}
+.btn {
+  background-color: red !important;
+  color: white !important;
+}
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.fa-plus {
+  color: red;
+  margin: 5px;
+}
+.fa-minus {
+  color: red;
+  margin: 5px;
+}
+.fa-trash {
+  color: red;
+}
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+
+nav li:last-child a {
+    background: #FE5F1E !important;
+}
+
+
+nav li a {
+    transition: all .3s ease-in-out !important;
+   text-decoration: none;
+}
+nav li a:hover{
+  color: #b23301 !important;
+}
+
+section.hero{
+    background: #F8F8F8 !important;
+}
+.btn-primary{
+    background: #FE5F1E !important;
+    transition: all .3s ease-in-out !important;
+}
+
+.btn-primary:hover{
+   background: #b23301 !important;
+}
+
+
+section.login{
+    background: #F8F8F8;
+    min-height: calc(100vh - 86px);   
+}
+
+.login-a{
+      color:  #FE5F1E;
+      transition: all .3s ease-in-out;
+      text-decoration: none;
+}
+
+.login-a:hover{
+    color:  #b23301;
+}
+
+.adminfunction{
+  padding: 10px;
+  background-color: rgb(1,1,77);
+}
+.adminfunction li{
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+  padding: 2px;
+  margin: 0;
+}
+
+.adminfunction li a{
+  color: white !important;
+  padding: 5px;
+  text-decoration: none;
+}
+td,tr,th{
+  text-align: left;
+}
+
+/* @media(max-width:1060px) {
+    .container {
+        max-width: 90%;
+    }
+    table {
+       display: block;
+       overflow-x: auto;
+       white-space: nowrap;
+    }
+} */
