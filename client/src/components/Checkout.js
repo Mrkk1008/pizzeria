@@ -40,6 +40,12 @@ export default function Checkout({ subtotal }) {
       },
       //callback_url: 'https://pizzeria108.herokuapp.com/',
       //redirect: true
+//       method: { // For only true selected method and for anroid webview
+//       netbanking: true,
+//       card: true,
+//       wallet: true,
+//       upi: true
+//       },
     };
     const rzpay = new Razorpay(options);
     rzpay.open();
