@@ -38,6 +38,8 @@ export default function Checkout({ subtotal }) {
       theme: {
         color: "#3399cc",
       },
+      callback_url: 'https://pizzeria108.herokuapp.com/',
+      redirect: true
     };
     const rzpay = new Razorpay(options);
     rzpay.open();
