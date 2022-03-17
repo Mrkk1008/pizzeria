@@ -5,7 +5,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import { getAllPizzasReducer , addPizzaReducer , getPizzaByIdReducer , editPizzaReducer} from "./reducers/pizzaReducers";
 import { cartReducer } from "./reducers/cartReducer";
 import { registerUserReducer, loginUserReducer ,getAllUsersReducer } from "./reducers/userReducer";
-import { placeOrderReducer , getUserOrdersReducer } from "./reducers/orderReducer";
+import { placeOrderReducer , getUserOrdersReducer ,  getAllOrdersReducer } from "./reducers/orderReducer";
 
 const finalReducer = combineReducers({
   getAllPizzasReducer: getAllPizzasReducer,
@@ -17,7 +17,8 @@ const finalReducer = combineReducers({
   getAllUsersReducer: getAllUsersReducer,
   getPizzaByIdReducer: getPizzaByIdReducer,
   editPizzaReducer: editPizzaReducer,
-  getUserOrdersReducer: getUserOrdersReducer
+  getUserOrdersReducer: getUserOrdersReducer,
+  getAllOrdersReducer: getAllOrdersReducer,
   
 });
 
